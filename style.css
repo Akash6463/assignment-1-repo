@@ -1,0 +1,78 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: gray;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(88, 87, 86);
+
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(138, 137, 135); 
+}
+
+p {
+    font-size: 20px;
+}
+
+.orange {
+    color: lightsalmon;
+}
+
+section {
+    display: flex
+
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.first-contant {
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 20px 40px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    border-radius: 40px;
+
+    box-shadow: 2px 2px 20px lightsalmon;
+
+
+    
+  }
+
+.secaind-contant{
+    background-image: url(7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 150px;
+    
+
+}
+
+.secaind-contant img{
+    width: 90%;
+   padding-left: 150px;
+}
+
+.secaind-contant-text{
+    padding: 100px 300px;
+}
+
