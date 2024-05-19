@@ -1,32 +1,42 @@
 body {
     font-family: "Lato", sans-serif;
-    color: gray;
     margin: 0;
+    font-weight: 500px;
+    font-size: 18px;
+    color: rgb(61, 61, 61);
 }
 
-h1 {
+.text-h-1 {
+    color: gray;
     font-size: 60px;
     font-weight: 900;
-    color: rgb(88, 87, 86);
+    
 
 
 }
 
-h2{
+.text-h-2{
+    color: rgb(99, 99, 99);
     font-size: 35px;
     font-weight: 900;
-    color: rgb(138, 137, 135); 
+     
 }
 
-p {
+.text-p-2{
+    color: gray;
     font-size: 20px;
+}
+
+.text-f-900{
+    font-weight: 900;
+    font-size: 25px;
 }
 
 .orange {
     color: lightsalmon;
 }
 
-section {
+.flex{
     display: flex
 
 }
@@ -45,6 +55,27 @@ section {
     margin-bottom: 150px;
 }
 
+.secaind-contant{
+    position: relative;
+    background-image: url(7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 100px;
+    
+
+}
+
+.secaind-contant img{
+    position: absolute;
+    width: 30%;
+   padding-left: 150px;
+   bottom: 0;
+}
+
+.secaind-contant-text{
+    padding: 100px 200px;
+}
+
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
@@ -54,27 +85,7 @@ section {
     font-size: 23px;
     border-radius: 45px;
     box-shadow: 2px 2px 40px lightsalmon;
-
-
   }
-
-.secaind-contant{
-    background-image: url(7.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 150px;
-    
-
-}
-
-.secaind-contant img{
-    width: 90%;
-   padding-left: 150px;
-}
-
-.secaind-contant-text{
-    padding: 100px 300px;
-}
 
 .link-button:hover{
     text-decoration: none;
@@ -84,4 +95,30 @@ section {
     font-weight: 900;
     border-radius: 60px;
     box-shadow: 4px 4px 40px tomato;
+}
+
+
+.My-Recipies{
+    text-align: center;
+    margin: 0px 30% 50px 30%;
+}
+
+.food-container{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+    
+}
+
+.food-blog img{
+    width: 100%;   
+}
+
+.food-blog{
+    box-shadow: 0.1px 0.1px 40px rgb(179, 178, 178);
+    border-radius: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 15px;
 }
