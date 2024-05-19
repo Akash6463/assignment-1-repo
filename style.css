@@ -2,7 +2,6 @@ body {
     font-family: "Lato", sans-serif;
     margin: 0;
     font-weight: 500px;
-    font-size: 18px;
     color: rgb(61, 61, 61);
 }
 
@@ -67,7 +66,7 @@ body {
 
 .secaind-contant img{
     position: absolute;
-    width: 30%;
+    width: 26%;
    padding-left: 150px;
    bottom: 0;
 }
@@ -116,9 +115,38 @@ body {
 }
 
 .food-blog{
-    box-shadow: 0.1px 0.1px 40px rgb(179, 178, 178);
+    box-shadow: 0.1px 0.1px 40px rgb(212, 212, 212);
     border-radius: 30px;
     margin-left: 25px;
     margin-right: 25px;
     padding: 15px;
 }
+
+.text-big-bold{
+    font-size: 37px;
+    font-weight: 900;
+}
+
+.rattinge{
+    display: flex;
+    box-shadow: 0.1px 0.1px 30px rgb(210, 210, 210);
+    border-radius: 20px;
+    margin: 20px 80px 80px 80px;
+    padding: 15px;
+     
+}
+
+.rattinge div{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-right: 10px;
+}
+
+.text-big-bold{
+    font-size: 37px;
+    font-weight: 900;
+}
+
+
+
+
